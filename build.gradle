@@ -11,6 +11,7 @@ description = 'edu10-restapp-pro'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
+        vendor = JvmVendorSpec.AMAZON
     }
 }
 
